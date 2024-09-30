@@ -21,7 +21,7 @@
 
 <section class="bg-white">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">Kogebog :D</h1>
+    
 
         <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
             
@@ -33,7 +33,7 @@
                         <a href="#" class="text-xl font-semibold text-gray-800 hover:underline ">
                             {opskrift.titel}
                         </a>
-                        
+
                         <span class="text-sm text-gray-500">{opskrift.tid}</span>
                     </div>
                 </div>

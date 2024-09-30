@@ -5,7 +5,4 @@
 
 <NavBar/>
 
-
-
-
-
+<Opskrifter />
