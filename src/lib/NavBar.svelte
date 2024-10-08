@@ -4,6 +4,7 @@
     function toggleMenu(){
         isOpen = !isOpen;
     }
+
 </script>
 
 
@@ -12,7 +13,7 @@
     <div class="container px-6 py-3 mx-auto md:flex">
         <div class="flex items-center justify-between">
             <a href="/">
-                <img class="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
+                <img class="w-32 h-32 sm:h-20 sm:w-20" src="/rounded_cat_logo.gif" alt="">
             </a>
 
             <!-- Mobile menu button -->
@@ -35,13 +36,14 @@
         </div>
 
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-        <div class="{isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between">
+    
+        <div class="{isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out md:bg-gray-700 bg-gray-100 md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between">
             <div class="flex flex-col px-2 -mx-4 md:flex-row md:mx-10 md:py-0">
                 
                 <!-- Hover til hover over Home, About etc.-->
-                <a href="#/" class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 md:mx-2">Home</a>
-                <a href="/counterside" class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 md:mx-2">Counter(about)</a>
-                <a href="/kogebog" class="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 md:mx-2">Recipes</a>
+                <a href="#/" class="px-2.5 py-2 text-midnight transition-colors duration-300 transform rounded-lg hover:bg-gray-100 md:mx-2">Home</a>
+                <a href="/counterside" class="px-2.5 py-2 text-blue-950 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 md:mx-2">Counter(about)</a>
+                <a href="/kogebog" class="px-2.5 py-2 text-blue-950 transition-colors duration-300 transform rounded-lg hover:bg-gray-100 md:mx-2">Recipes</a>
             </div>
             
             <!-- Søge ikonet -->
@@ -53,7 +55,7 @@
                     </svg>
                 </span>
 
-                <input type="text" class="w-full py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Search">
+                <input type="text" class="w-full py-2 pl-10 pr-4 text-blue-500 bg-white border rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Search">
             </div>
             
         </div>
